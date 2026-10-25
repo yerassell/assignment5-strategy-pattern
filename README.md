@@ -5,7 +5,7 @@
 - Group: SE-2524
 - Topic: Option B — Calculator
 - Repository URL: https://github.com/yerassell/assignment5-strategy-pattern.git
-- Last commit: 
+- Last commit: f0838a9d555176959c0f9c9118010f3fd6935792
 
 
 ## Project purpose
@@ -15,9 +15,13 @@ This is an application that calculates operation such as addition, subtraction, 
 ## Package structure
 - `app/` - contains the context and client classes (Calculator.java and Client.java)
 - `strategy/` - contains the operation strategy classes (AddStrategy.java, DivideStrategy.java, MultiplyStrategy.java, Strategy.java, SubtractStrategy.java)
-- `Assignment5_SE-2524_Yermekkyzy_Assel.pdf` - is the report of the assignment
+- `Assignment5_SE-2524_Yermekkyzy_Assel.pdf` - is the report in pdf 
 - `README.md`
-  
+- `Report.md` - the same report but as a md file
+
+## How to add a new strategy
+1. Create a new file in `strategy/PowerStrategy.java`
+2. In `app/Client.java`, just add one line to set the new strategy and other line to print the result (as it was shown in section 5 in Clean Code)
   
 ## Build and run instruction
 - Run on Intellij IDEA
