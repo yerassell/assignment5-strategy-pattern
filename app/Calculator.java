@@ -1,3 +1,5 @@
+package app;
+
 import strategy.Strategy;
 
 public class Calculator {

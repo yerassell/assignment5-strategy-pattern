@@ -1,3 +1,5 @@
+package app;
+
 import strategy.AddStrategy;
 import strategy.DivideStrategy;
 import strategy.MultiplyStrategy;
